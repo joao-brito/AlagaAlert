@@ -16,3 +16,13 @@ h1 {
     font-weight: normal;
     text-align: center;
 }
+
+.mapa-container {
+   justify-content: center;
+   align-items: center;
+   margin-left: 100%;
+}
+.mapa {
+   width: 80%; /* Ajuste a largura conforme necessário */
+   height: 80%; /* Ajuste a altura conforme necessário */
+}
