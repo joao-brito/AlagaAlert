@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" href="imagens/logo_site.png" type="logo_site/png">
-
+        <script type="text/javascript" src='jquerry.js'></script>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
             integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -37,6 +36,7 @@
                                 <a href="senai_ary.html" class="btn btn-primary"> SENAI ARY TORRES </a>
                                 <a href="shopping_sp.html" class="btn btn-primary"> SHOPPING SP</a>
                                 <a href="lapa.html" class="btn btn-primary">LAPA</a>
+                                <a href="cadastro.html" class="btn btn-primary">Cadastro</a>
                             </div>
                         </th>
                     </tr>
@@ -44,7 +44,17 @@
                 </tbody>
             </table>
         </div>
+        
+<!--  This is where the data is displayed -->
+<div style='border:0px solid blue; padding:0%;'>
+    <p id='info'></p>
+</div>
 
+
+<!--  Dummy value insertion link -->
+<button>
+	<a style='text-decoration:none;font-size:12px' href='../insert_data.php?dist=65' target='_blank'>Insert dummy value</a>
+</button>
 
 
 
